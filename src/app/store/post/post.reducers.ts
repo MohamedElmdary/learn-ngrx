@@ -1,9 +1,5 @@
 import { PostTypes, PostActions } from "./post.actions";
-import { Post } from "./post.types";
-
-export interface PostState {
-  posts: Array<Post>;
-}
+import { PostState } from "./post.types";
 
 const initState: PostState = {
   posts: []
