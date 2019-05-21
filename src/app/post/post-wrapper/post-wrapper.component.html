@@ -1,0 +1,3 @@
+<ul *ngIf="posts && posts.length > 0">
+  <li *ngFor="let post of posts" app-post [post]="post"></li>
+</ul>
